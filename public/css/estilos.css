@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e4e4e4;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*Estilos Generales*/
+
+
+h4 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+h4:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 3px;
+    margin: 5px auto;
+    border: 0;
+    background: #54a7c0;
+}
+
+
+
+.texto-centrar {
+    text-align: center;
+}
+
+.card-personalizada {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+
+/*PARA PONER FOTO DE FONDO Y MENU SOBRE EL  */
+
+.contecInicio {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    color: #eee;
+}
+
+.contecInicio:after {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.12) 80%, rgba(27, 32, 48, 1) 100%);
+}
+
+.contecInicio:before {
+    content: "";
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    /* -webkit-transform: translateZ(0); backface-visibility: hidden; */
+    scale: (1.0, 1.0);
+    /* transform: translateZ(0); */
+    background: #1B2030 url(../img/bueno.jpg) 100% no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    background-attachment: fixed;
+    animation: grow 360s linear 10ms infinite;
+    transition: all 0.4s ease-in-out;
+    z-index: -2
+}
+
+.photo-text {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 200vh;
+    top: 0;
+    left: 0;
+    background: rgba(92, 92, 107, 0.6);
+}
+
+.contecInicio h3 {
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #FEFFFF;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 998;
+}
+
+.contecInicio p {
+    width: 80%;
+    text-align: center;
+    letter-spacing: 1.5px;
+    color: #FEFFFF;
+    position: relative;
+    z-index: 998;
+}
+
+/*MENU*/
+.nav {
+    line-height: 70px;
+    position: relative;
+    z-index: 999;
+}
+
+.nav-item a {
+    clear: right;
+    color: #FEFFFF !important;
+    margin: 0 10px;
+    line-height: 70px;
+    letter-spacing: .9px;
+    text-transform: uppercase;
+    transition: all 250ms ease;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+/*Para la barra de navegacion */
+
+@media screen and (max-width: 1140px) {
+
+    .navbar-brand {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 990px) {
+
+    .navbar-brand {
+        display: block !important;
+    }
+
+
+}
+
+
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    background: round;
+    width: 300px;
+    height: 300px;
+
+}
+
+
+
+
+/* para el scroll */
+
+body {
+    /* margin: 2rem auto;
+    border: 1px solid #aaa;
+    height: 300px;
+    width:90%;
+    max-width: 400px; */
+    /* background: #f1f2f3; */
+    overflow: auto;
+    box-sizing: border-box;
+    /*  background: yellowgreen; */
+    /* padding:0 1rem; */
+    font-family: 'Segoe UI' !important;
+}
+
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: rgb(155, 155, 155);
+}
+
+::-webkit-scrollbar:vertical {
+    width: 15px;
+}
+
+::-webkit-scrollbar-button:increment {
+    display: none;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #54a7c0;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+
+/* _------------------------------------------------------------------------------------------------------------ */
+
+
+/* Inicio */
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+/* -------------------------------------------------- */
+
+.navbar-scroll {
+    position: fixed;
+    background-color: rgba(52, 58, 64, 0.8) !important;
+}
