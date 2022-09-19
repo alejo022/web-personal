@@ -1,3 +1,7 @@
+:root {
+    --azul: #54a7c0;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -9,10 +13,14 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.text-azul {
+    color: var(--azul);
+}
+
 /*Estilos Generales*/
 
 
-h4 {
+/* h4 {
     width: 80%;
     margin: auto;
     text-align: center;
@@ -28,7 +36,7 @@ h4:after {
     margin: 5px auto;
     border: 0;
     background: #54a7c0;
-}
+} */
 
 .content-titulo {
     border-bottom: 3px solid #54a7c0;
