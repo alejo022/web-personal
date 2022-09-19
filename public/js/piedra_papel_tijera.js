@@ -30,13 +30,13 @@ botonTijera.addEventListener("click", () => {
 
 function play(OpcionUsuario) {
 
-  imgUsuario.src = "assets/img/" + OpcionUsuario + ".png";
+  imgUsuario.src = "img/piedra_papel_tijera/" + OpcionUsuario + ".png";
 
   textoResultado.innerHTML = "Jugando...";
 
   const intervalo = setInterval(function () {
     const OpcionMaquina = calcularOpcionMaquina();
-    imgMaquina.src = "assets/img/" + OpcionMaquina + ".png";
+    imgMaquina.src = "img/piedra_papel_tijera/" + OpcionMaquina + ".png";
   }, 200);
 
   setTimeout(function () {
@@ -49,7 +49,7 @@ function play(OpcionUsuario) {
 
     const resultado = calcularResultado(OpcionUsuario, OpcionMaquina)
 
-    imgMaquina.src = "assets/img/" + OpcionMaquina + ".png";
+    imgMaquina.src = "img/piedra_papel_tijera/" + OpcionMaquina + ".png";
 
     switch (resultado) {
       case empate:

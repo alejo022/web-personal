@@ -19,11 +19,12 @@
                         Haz tu elección para comenzar
                       </p>
                     <div class="row">
-                        <div class="col-md-6">
-                            <img id="img-maquina" src="{{asset('img/piedra_papel_tijera/pregunta.png')}}" alt="">
-                        </div>
+
                         <div class="col-md-6">
                             <img id="img-usuario" src="{{asset('img/piedra_papel_tijera/pregunta.png')}}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <img id="img-maquina" src="{{asset('img/piedra_papel_tijera/pregunta.png')}}" alt="">
                         </div>
                     </div>
                 </div>
