@@ -18,7 +18,7 @@
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="{{ route('habilidades') }}"><i class="fa-solid fa-list-check"></i>
-                    Servicios</a>
+                    Habilidades</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="{{ route('portafolio') }}"><i class="fa-solid fa-book-open"></i>

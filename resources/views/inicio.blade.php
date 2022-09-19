@@ -1,5 +1,7 @@
 <x-layout>
 
+
+
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="{{ asset('css/caruselInicio.css') }}">
@@ -19,8 +21,8 @@
 
     <section class="container" id="skills">
 
-        <div class="modal-header mb-4 justify-content-center">
-            <h4 class="texto-centrar">¡Mis Skills!</h4>
+        <div class="modal-header mb-4 justify-content-center content-titulo">
+            <h3 class="texto-centrar">¡Mis Skills!</h3>
         </div>
 
         <div class="">
@@ -89,7 +91,12 @@
 
     <section class="servicios" id="servicios">
 
-        <h4 class="mb-5">HABILIDADES</h4>
+        <div class="container">
+            <div class="modal-header mb-4 content-titulo justify-content-center">
+                <h3>HABILIDADES</h3>
+            </div>
+        </div>
+
 
         <div class="contenedor">
             <div class="row">
@@ -154,7 +161,11 @@
 
     <section class="portafolio" id="portafolio">
 
-        <h4>PORTAFOLIO</h4>
+        <div class="container">
+            <div class="modal-header mb-4 content-titulo justify-content-center">
+                <h3>PORTAFOLIO</h3>
+            </div>
+        </div>
 
         <div class="main-publico">
             <div class="albunes">

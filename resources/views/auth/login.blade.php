@@ -1,6 +1,12 @@
 <x-layout>
     <div class="container mt-4 mb-4">
 
+        <div class="modal-header mb-4 content-titulo justify-content-center text-uppercase">
+            <h3>
+                INICIAR SESIÓN
+            </h3>
+        </div>
+
         <div class="card card-personalizada">
             <x-slot name="logo">
                 {{-- <x-jet-authentication-card-logo /> --}}

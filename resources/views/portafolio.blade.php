@@ -2,66 +2,72 @@
 
     <section class="portafolio" id="portafolio">
 
-        <h4>PORTAFOLIO</h4>
+        <div class="container mt-4 mb-4">
+            <div class="modal-header mb-4 content-titulo justify-content-center text-uppercase">
+                <h3>
+                    PORTAFOLIO
+                </h3>
+            </div>
 
-        <div class="main-publico">
-            <div class="albunes">
-                <ul class="list-albunes">
+            <div class="main-publico">
+                <div class="albunes">
+                    <ul class="list-albunes">
 
-                    <li>
-                        <a href="{{route('piedraPapelTijera')}}" target="_blank">
+                        <li>
+                            <a href="{{ route('piedraPapelTijera') }}" target="_blank">
 
-                            <div class="container-albun portafolio-item">
+                                <div class="container-albun portafolio-item">
 
-                                <img src="img/piedraPapelTijera.png" alt="img SIWGPA" class="portafolio-img"
-                                    style="object-fit: cover;    transition: all 1s ease 0.1s;" />
-                                <div class="info-albun">
-                                    <h2 class="nombre-albun">Piedra - Papel - Tijera</h2>
+                                    <img src="img/piedraPapelTijera.png" alt="img SIWGPA" class="portafolio-img"
+                                        style="object-fit: cover;    transition: all 1s ease 0.1s;" />
+                                    <div class="info-albun">
+                                        <h2 class="nombre-albun">Piedra - Papel - Tijera</h2>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </li>
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="#" target="_blank">
+                        <li>
+                            <a href="#" target="_blank">
 
-                            <div class="container-albun portafolio-item">
+                                <div class="container-albun portafolio-item">
 
-                                <img src="img/portada.png" alt="img SIWGPA" class="portafolio-img"
-                                    style="object-fit: cover;    transition: all 1s ease 0.1s;" />
-                                <div class="info-albun">
-                                    <h2 class="nombre-albun">SIWGPA</h2>
+                                    <img src="img/portada.png" alt="img SIWGPA" class="portafolio-img"
+                                        style="object-fit: cover;    transition: all 1s ease 0.1s;" />
+                                    <div class="info-albun">
+                                        <h2 class="nombre-albun">SIWGPA</h2>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
 
-                            <div class="container-albun portafolio-item">
+                                <div class="container-albun portafolio-item">
 
-                                <img src="img/camaras.PNG" alt="img Camaras Seguridad" class="portafolio-img"
-                                    style="object-fit: cover;    transition: all 1s ease 0.1s;" />
-                                <div class="info-albun">
-                                    <h2 class="nombre-albun">CAMARAS SEGURIDAD</h2>
+                                    <img src="img/camaras.PNG" alt="img Camaras Seguridad" class="portafolio-img"
+                                        style="object-fit: cover;    transition: all 1s ease 0.1s;" />
+                                    <div class="info-albun">
+                                        <h2 class="nombre-albun">CAMARAS SEGURIDAD</h2>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" target="_blank">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">
 
-                            <div class="container-albun portafolio-item">
+                                <div class="container-albun portafolio-item">
 
-                                <img src="img/fitnes.png" alt="img Mundo Fitness" class="portafolio-img"
-                                    style="object-fit: cover;    transition: all 1s ease 0.1s;" />
-                                <div class="info-albun">
-                                    <h2 class="nombre-albun">MUNDO FITNESS</h2>
+                                    <img src="img/fitnes.png" alt="img Mundo Fitness" class="portafolio-img"
+                                        style="object-fit: cover;    transition: all 1s ease 0.1s;" />
+                                    <div class="info-albun">
+                                        <h2 class="nombre-albun">MUNDO FITNESS</h2>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
