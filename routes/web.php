@@ -36,6 +36,10 @@ Route::get('/contacto', function () {
     return view('contacto');
 })->name('contacto');
 
+Route::get('/piedraPapelTijera', function () {
+    return view('piedraPapelTijera');
+})->name('piedraPapelTijera');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),

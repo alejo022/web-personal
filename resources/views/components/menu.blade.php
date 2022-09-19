@@ -1,7 +1,7 @@
 <nav
-    @if (Route::is('inicio')) class="navbar navbar-expand-lg navbar-light bg-dark barra-inicio"
+    @if (Route::is('inicio')) class="navbar navbar-expand-lg navbar-dark bg-dark barra-inicio"
         @else
-        class="navbar navbar-expand-lg navbar-light" style="background-color:  rgba(52, 58, 64,0.8);" @endif>
+        class="navbar navbar-expand-lg navbar-dark" style="background-color:  rgba(52, 58, 64,0.8);" @endif>
     <a class="navbar-brand text-white" href="{{ route('inicio') }}">ALEJANDRO VALENCIA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

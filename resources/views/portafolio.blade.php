@@ -7,6 +7,21 @@
         <div class="main-publico">
             <div class="albunes">
                 <ul class="list-albunes">
+
+                    <li>
+                        <a href="{{route('piedraPapelTijera')}}" target="_blank">
+
+                            <div class="container-albun portafolio-item">
+
+                                <img src="img/piedraPapelTijera.png" alt="img SIWGPA" class="portafolio-img"
+                                    style="object-fit: cover;    transition: all 1s ease 0.1s;" />
+                                <div class="info-albun">
+                                    <h2 class="nombre-albun">Piedra - Papel - Tijera</h2>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
                     <li>
                         <a href="#" target="_blank">
 
