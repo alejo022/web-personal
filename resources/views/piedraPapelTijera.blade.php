@@ -14,31 +14,26 @@
                         <h4 id="resultado" class="text-center w-100 text-azul font-weight-bold">
                             Haz tu elección para comenzar
                         </h4>
-                        <div class="row mt-4 mb-4">
-                            <div class="col-md-6">
-                                <div class="caja-jugador"
-                                    style="height: 200px; background-color: rgba(255,255,255,0.5);padding: 2%;display: flex;align-items: center;justify-content: space-between;border-radius:10px;flex-direction: column;border:2px solid #54a7c0;transform: rotate(-10deg);">
-                                    <img id="img-usuario" src="{{ asset('img/piedra_papel_tijera/pregunta.png') }}"
-                                        alt="">
-                                    <div>
-                                        <p class="font-weight-bold">
-                                            Jugador
-                                        </p>
-                                    </div>
-                                </div>
+                        <div class="row mt-4 mb-4 d-flex">
+
+                            <div class="caja-jugador"
+                                style="width: 50%;height: 200px; background-color: rgba(255,255,255,0.5);padding: 2%;display: flex;align-items: center;justify-content: space-between;border-radius:10px;flex-direction: column;border:2px solid #54a7c0;transform: rotate(-10deg);">
+                                <img id="img-usuario" src="{{ asset('img/piedra_papel_tijera/pregunta.png') }}"
+                                    alt="">
+                                <p class="font-weight-bold">
+                                    Jugador
+                                </p>
                             </div>
-                            <div class="col-md-6">
-                                <div class="caja-maquina"
-                                    style="height: 200px; background-color: rgba(255,255,255,0.5);padding: 2%;display: flex;align-items: center;justify-content: space-between;border-radius:10px;flex-direction: column;border:2px solid #54a7c0;transform: rotate(10deg);">
-                                    <img id="img-maquina" src="{{ asset('img/piedra_papel_tijera/pregunta.png') }}"
-                                        alt="">
-                                    <div>
-                                        <p class="font-weight-bold">
-                                            Maquina
-                                        </p>
-                                    </div>
-                                </div>
+
+                            <div class="caja-maquina"
+                                style="width: 50%;height: 200px; background-color: rgba(255,255,255,0.5);padding: 2%;display: flex;align-items: center;justify-content: space-between;border-radius:10px;flex-direction: column;border:2px solid #54a7c0;transform: rotate(10deg);">
+                                <img id="img-maquina" src="{{ asset('img/piedra_papel_tijera/pregunta.png') }}"
+                                    alt="">
+                                <p class="font-weight-bold">
+                                    Maquina
+                                </p>
                             </div>
+
                         </div>
                     </div>
                 </div>
