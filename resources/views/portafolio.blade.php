@@ -14,6 +14,20 @@
                     <ul class="list-albunes">
 
                         <li>
+                            <a href="https://alejo022.github.io/Mokepon/" target="_blank">
+
+                                <div class="container-albun portafolio-item">
+
+                                    <img src="#" alt="img mokepon" class="portafolio-img"
+                                        style="object-fit: cover;transition: all 1s ease 0.1s;" />
+                                    <div class="info-albun">
+                                        <h2 class="nombre-albun">Juego de Mokepon</h2>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                        <li>
                             <a href="{{ route('piedraPapelTijera') }}" target="_blank">
 
                                 <div class="container-albun portafolio-item">
