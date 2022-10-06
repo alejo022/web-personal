@@ -66,11 +66,20 @@
                 <div class="swiper-button-prev"></div> --}}
                 <div class="swiper-pagination"></div>
             </div>
+
+
+
         </div>
 
+        <div class="modal-header mb-4 mt-5 content-titulo justify-content-center text-uppercase">
+            <h3>
+                Puesto de trabajo
+            </h3>
+        </div>
+
+        <img src="{{ asset('img/Oficina.jpg') }}" class="shadow" alt="" style="border-radius:20px">
+
     </div>
-
-
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
