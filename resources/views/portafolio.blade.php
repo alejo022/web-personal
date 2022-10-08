@@ -3,11 +3,16 @@
     <section class="portafolio" id="portafolio">
 
         <div class="container mt-4 mb-4">
+
+
+
             <div class="modal-header mb-4 content-titulo justify-content-center text-uppercase">
                 <h3>
-                    PORTAFOLIO
+                    PRACTICAS CON JS
                 </h3>
             </div>
+
+
 
             <div class="main-publico">
                 <div class="albunes">
@@ -18,7 +23,7 @@
 
                                 <div class="container-albun portafolio-item">
 
-                                    <img src="#" alt="img mokepon" class="portafolio-img"
+                                    <img src="img/mokepon.png" alt="img mokepon" class="portafolio-img"
                                         style="object-fit: cover;transition: all 1s ease 0.1s;" />
                                     <div class="info-albun">
                                         <h2 class="nombre-albun">Juego de Mokepon</h2>
@@ -40,6 +45,23 @@
                                 </div>
                             </a>
                         </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+            <div class="modal-header mb-4 content-titulo justify-content-center text-uppercase">
+                <h3>
+                    PROYECTOS REALIZADOS
+                </h3>
+            </div>
+
+            <div class="main-publico">
+                <div class="albunes">
+                    <ul class="list-albunes">
 
                         <li>
                             <a href="#" target="_blank">
@@ -83,6 +105,11 @@
                     </ul>
                 </div>
             </div>
+
+
+
+
+
         </div>
 
 
