@@ -13,6 +13,17 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+.fondo-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
 .text-azul {
     color: var(--azul);
 }
