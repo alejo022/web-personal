@@ -49,12 +49,11 @@
 
 <body>
 
-    <video width="auto" height="auto" class="fondo-video" autoplay>
+    <video width="auto" height="auto" class="fondo-video" autoplay loop>
         <source src="{{asset('video/video.mp4')}}" type="video/mp4">
         {{-- <source src="movie.ogg" type="video/ogg"> --}}
-      Your browser does not support the video tag.
-      </video>
-
+        Your browser does not support the video tag.
+    </video>
 
     <div class="font-sans text-gray-900 antialiased">
 
